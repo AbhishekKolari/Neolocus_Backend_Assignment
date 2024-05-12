@@ -1,6 +1,4 @@
 from flask import Flask, request, jsonify
-from PIL import Image
-import io
 import base64
 from image_processing import adjust_brightness
 
