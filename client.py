@@ -1,6 +1,5 @@
 import requests
 import base64
-import json
 # from PIL import Image
 # import io
 
@@ -21,8 +20,5 @@ def process_image(image_path):
         print("Modified image saved as modified_image.jpg")
     else:
         print("Error:", response.json()['error'])
-
-# if __name__ == '__main__':
-#     process_image('input_image.png')
 
 process_image('input_image.png')
